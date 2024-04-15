@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "weather",
+			"path": "../../../../Downloads/weather"
+		},
+		{
+			"name": "play-nextjs-main",
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}
