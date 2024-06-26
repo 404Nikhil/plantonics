@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  nextjs:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - disease-detection
+      - crop-recommendation
+
+  disease-detection:
+    build:
+      context: ./disease-detection
+    ports:
+      - "8501:8501"
+
+  crop-recommendation:
+    build:
+      context: ./crop-recommendation
+    ports:
+      - "5000:5000"

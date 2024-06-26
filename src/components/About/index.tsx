@@ -12,11 +12,11 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                Harnessing AI for Sustainable Farming
+                  Harnessing AI for Sustainable Farming
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                Welcome to our farming tool! Predict crop outcomes easily with our user-friendly model. Experience precision farming today!
-                Try it now and know your suitable crop. uWu
+                  Welcome to our farming tool! Predict crop outcomes easily with our user-friendly model. Experience precision farming today!
+                  Try it now and know your suitable crop. uWu
                 </p>
 
                 <a
@@ -60,8 +60,6 @@ const About = () => {
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
-
-                 
                 </div>
               </div>
             </div>
